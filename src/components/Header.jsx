@@ -31,15 +31,16 @@ export default function Header() {
                 <NavLink className="nav-link" to="/artificial-intelligence">Artificial Intelligence</NavLink>
               </li>
             </ul>
-            <form className="d-flex">
+          </div>
+          {/* NUEVO: Bloque responsivo para búsqueda y login */}
+          <div className="header-actions d-flex align-items-center ms-3">
+            <form className="d-flex search-form mb-0">
               <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
               <button className="btn btn-tech" type="submit">Search</button>
             </form>
+            <Link to="/login" className="btn btn-tech ms-2 login-btn">Iniciar Sesión</Link>
           </div>
         </div>
-        <button type="button" className="btn btn-tech position-absolute end-0 top-50 translate-middle-y me-3">
-          <Link to="/login" style={{ color: 'inherit', textDecoration: 'none' }}>Iniciar Sesión</Link>
-        </button>
       </nav>
     </header>
   );

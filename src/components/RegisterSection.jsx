@@ -6,7 +6,7 @@ export default function RegisterSection() {
       <div className="container">
         <div className="row mb-4">
           <div className="col text-center text-uppercase mb-4">
-            <h2 className="text-white">Contribuye a una comunidad</h2>
+            <h2 className="text-white">Registrate y Contribuye a una comunidad</h2>
           </div>
         </div>
         <div className="row formulario">
