@@ -3,14 +3,17 @@
 ¡Bienvenido a la mejor plataforma para mantenerte actualizado con las últimas tendencias del mundo tecnológico!
 Este proyecto es una página web moderna y responsiva construida con **Vite + React**, que reúne noticias, recursos y comunidades sobre desarrollo web, inteligencia artificial, startups, blockchain y mucho más.
 
-## 🚀 Características
+## 🚀 Funcionalidades principales
 
-- **Diseño atractivo y responsivo**: Adaptado para cualquier dispositivo.
-- **Navegación intuitiva**: Explora diferentes secciones tecnológicas desde el menú principal.
-- **Inicio de sesión y registro**: Accede a contenido exclusivo y personaliza tu experiencia.
-- **Noticias actualizadas**: Descubre novedades del mundo tech en un solo lugar.
-- **Secciones especializadas**: Web Developer, Machine Learning, Startups, Blockchain, Inteligencia Artificial, y más.
-- **Animaciones modernas**: Experiencia visual mejorada gracias a librerías como AOS y Bootstrap.
+- **Home con noticias combinadas**: Muestra las noticias más recientes y relevantes de varias fuentes temáticas (IA, Machine Learning, Startups, Blockchain, Web Development), solo si tienen imagen y máximo 8 noticias.
+- **Scroll suave en botones destacados**: El botón "Conoce más" en el carousel lleva suavemente a la sección de noticias. El botón "Quiero unirme" en la sección Corporate lleva suavemente a la zona de registro.
+- **Extracción inteligente de imágenes**: Cada sección temática intenta extraer la mejor imagen disponible de cada noticia, mostrando un placeholder si no la hay.
+- **Secciones temáticas**: Páginas dedicadas a Inteligencia Artificial, Machine Learning, Startups, Blockchain y Web Development, cada una con su propio feed de noticias.
+- **Animaciones modernas**: Uso de AOS y Bootstrap para transiciones atractivas.
+- **Diseño responsivo**: Adaptado para cualquier dispositivo.
+- **Navegación intuitiva**: Menú principal con rutas claras a cada sección.
+- **Inicio de sesión y registro**: Acceso y registro para personalizar la experiencia (estructura básica incluida).
+- **Identidad visual personalizada**: Favicon y logo coherentes en toda la interfaz.
 
 ## 🛠️ Tecnologías utilizadas
 

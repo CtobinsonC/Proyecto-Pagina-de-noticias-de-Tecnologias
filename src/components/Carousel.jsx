@@ -11,6 +11,15 @@ const slides = [
 export default function Carousel() {
   useEffect(() => {}, []);
 
+  // Scroll a la sección de noticias
+  const scrollToNews = (e) => {
+    e.preventDefault();
+    const cardsSection = document.getElementById('news-section');
+    if (cardsSection) {
+      cardsSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <div className="container-fluid align-items-center">
       <div className="row">
@@ -37,7 +46,8 @@ export default function Carousel() {
                       para aprender las nuevas tecnologias que se necesitan <br />
                       para llevar tu empresa a otro nivel
                     </p>
-                    <a href="#" className="btn btn-outline-light">Conoce mas</a>
+                    <a href="#news-section" className="btn btn-outline-light me-2" onClick={scrollToNews}>Conoce mas</a>
+                    {/* Botón "Quiero unirme" eliminado */}
                   </div>
                 </div>
               </div>
