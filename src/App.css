@@ -1,0 +1,97 @@
+body{
+    background-color: black;
+}
+
+.btn-tech {
+    background-color: #212529;
+    color: white;
+    border: 1px solid #3ec9bd;;
+}
+
+.btn-tech:hover{
+    background-color:#3ec9bd;
+    color: white;
+}
+
+main .carousel-inner img {
+    object-fit: cover;
+    filter: grayscale(50%);
+
+}
+
+#carousel {
+    position: relative;
+    max-height: calc(100vh - 61.5px);
+    overflow: hidden;
+}
+
+#carousel .overlay {
+    position: absolute;
+    color: white;
+    z-index: 1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.tech h2 {
+    color: white;
+}
+
+.tech .card{
+    background-color: #212529;
+    color: white;
+    border-radius: 3px;
+    background: #212529;
+    box-shadow:  -7px -7px 16px #1b1f22,
+}
+
+
+.tech .card img {
+    max-height: 155px;
+}
+
+.corporate .startup img {
+    height: 50vh;
+}
+
+.info-text {
+    background-image: url('./img/photo-1541746972996-4e0b0f43e02a.jfif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    color:white;
+    filter: grayscale(50%);
+}
+
+.contribution img{
+    height: 100%;
+}
+
+.contribution {
+    color: rgb(167, 165, 165);
+}
+
+.registre {
+    color:white;
+}
+.formulario .card{
+    background-color:rgb(27, 26, 26) ;
+    height: 70%;
+}
+
+#imagen_registro {
+    height: 100%;
+}
+
+footer {
+    background: rgb(27, 26, 26) ;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+}
